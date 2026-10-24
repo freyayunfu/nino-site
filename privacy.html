@@ -17,13 +17,14 @@ td{padding:4px 10px 4px 0;vertical-align:top}</style></head><body>
 <p>· <b>Account</b>: your email address, used to sign in.<br>
 · <b>What you share</b>: group messages, photos, voice and video messages, your private thread with Nino, your name, avatar, place and birthday.<br>
 · <b>Place</b>: the district or city you pick from a list. If you tap "Use my location", the phone takes one coarse location fix at that moment to pick it for you; precise coordinates never leave the phone. We store the place name and a coordinate rounded to about 10 km, used for weather.<br>
+· <b>Activity</b> (only if you turn on "Share activity"): your daily step count, exercise minutes and workouts (type and minutes) read from Apple Health, shared with the family you chose. Totals only: no heart rate, no routes, no sleep. Turning it off deletes what was shared; rows older than 90 days are deleted automatically.<br>
 · <b>Usage data</b>: anonymous product events (such as "opened the chat"), used only to improve the product.<br>
 We do <b>not</b> read your contacts or calendar, do not track your location continuously, show no ads, and never sell data.</p>
 
 <h2>AI processing and service providers</h2>
 <p>To let Nino host the conversation, some content is processed by the services below, each under its own terms and not used to train their public models:</p>
 <table>
-<tr><td><b>Anthropic (Claude)</b></td><td>reads group and private messages to host, ask questions and write memories; describes photos you send</td></tr>
+<tr><td><b>Anthropic (Claude)</b></td><td>reads group and private messages to host, ask questions and write memories; describes photos you send; sees shared daily activity totals as part of what the host reads</td></tr>
 <tr><td><b>OpenAI</b></td><td>decides when Nino speaks during game night; looks up local weather and news by place name only (no chat content)</td></tr>
 <tr><td><b>MiniMax / ElevenLabs</b></td><td>synthesize Nino's voice; ElevenLabs also transcribes your speech during game night</td></tr>
 <tr><td><b>LiveKit</b></td><td>carries game-night audio and video calls</td></tr>
